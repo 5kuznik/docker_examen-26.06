@@ -1,1 +1,3 @@
-# docker_examen-26.06
+docker build -t test-exam .
+
+docker run -d -p 3001:3000 test-exam
